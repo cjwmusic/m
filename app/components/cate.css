@@ -1,0 +1,63 @@
+.cate {
+    position: relative;
+    width: 100%;
+    height: 62px;
+    background-color: #fff;
+    color: white;
+}
+
+.topLine {
+    background-color: #F1F1F1;
+    height: 0.5px;
+
+}
+
+.avatar {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+    background-color: transparent;
+}
+
+.img {
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+}
+
+.title {
+    position: absolute;
+    padding: 0px 0px;
+    color: #555555;
+    font-family: "PingFang SC";
+    font-size: 14px;
+    height: 18px;
+    left: 72px;
+    top: 12px;
+}
+
+.subTitle {
+    position: absolute;
+    color: #909090;
+    font-family: "PingFang TC";
+    font-size: 14px;
+    height: 20px;
+    line-height: 25px;
+    left: 72px;
+    top: 30px;
+    right: 10px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.time {
+    position: absolute;
+    color:#BDBDBD;
+    font-size: 12px;
+    top: 12px;
+    right: 12px;
+}
